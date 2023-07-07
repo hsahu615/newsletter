@@ -1,0 +1,29 @@
+.content-container{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:440px) {
+    .content-container{
+        margin-top: 20px;
+    }
+}
+
+.news-box{
+    border-bottom: 1px solid hsl(233, 8%, 65%);
+}
+
+.news-box:last-child{
+    border-bottom: 0;
+}
+
+.news-title{
+    color: white;
+}
+
+.news-title:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.fit-content{
+    height: fit-content;
+}

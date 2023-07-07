@@ -1,0 +1,45 @@
+.nav-list {
+    list-style: none;
+}
+
+.nav-list>a{
+    text-decoration: none;
+}
+
+.nav-list>a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+@media screen and (max-width:440px) {
+    .nav-list-mobile{
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    
+    .nav-list-mobile>a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+    
+    .side-menu {
+        width: 85vw;
+        position: fixed;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+        transition: all .2s linear;
+    }
+    
+    .hide-side-menu{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        background-color: white;
+        border: 0;
+        font-size: 30px;
+    }
+}
